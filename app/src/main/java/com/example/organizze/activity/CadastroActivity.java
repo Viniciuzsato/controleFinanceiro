@@ -73,7 +73,7 @@ public class CadastroActivity extends AppCompatActivity {
         autenticacao = ConfiguracaoFirebase.getFirebaseAutenticacao();
         autenticacao.createUserWithEmailAndPassword(
                 usuario.getEmail(), usuario.getSenha()
-        ).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+        ).addOnCompleteListener(this,new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){

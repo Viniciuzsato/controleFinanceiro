@@ -11,5 +11,6 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_main5">MainActivity5</string>
     <string name="title_activity_principall">PrincipallActivity</string>
+    <string name="add">drawable/baseline_add_branco_24</string>
 
 </resources>

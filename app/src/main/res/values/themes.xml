@@ -12,6 +12,25 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+    </style>
+
+    <!-- tema aplicado nas despesas -->
+    <style name="despesaTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimaryDespesa</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDespesa</item>
+        <item name="colorAccent">@color/colorAccentDespesa</item>
+    </style>
+
+    <!-- tema aplicado nas receitas -->
+    <style name="receitaTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimaryReceita</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkReceita</item>
+        <item name="colorAccent">@color/colorAccentReceita</item>
     </style>
 
     <style name="Theme.Organizze.NoActionBar">

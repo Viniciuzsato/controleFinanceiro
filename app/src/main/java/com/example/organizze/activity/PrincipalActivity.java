@@ -2,6 +2,7 @@ package com.example.organizze.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toolbar;
@@ -17,7 +18,9 @@ public class PrincipalActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
 
-        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+
+        /*
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,10 +31,10 @@ public class PrincipalActivity extends AppCompatActivity {
 
     }
 
-    public void adicionarDespesa(){
-
+    public void adicionarDespesa(View view){
+        startActivity(new Intent(this, DespesasActivity.class));
     }
-    public void adicionarReceita(){
-
+    public void adicionarReceita(View view){
+        startActivity(new Intent(this, ReceitasActivity.class));
     }
 }

@@ -24,12 +24,12 @@
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:ems="10"
+            android:gravity="end"
             android:hint="R$00.00"
             android:inputType="numberDecimal"
             android:textAlignment="textEnd"
             android:textColor="@color/white"
-            android:textSize="30sp"
-            android:gravity="end"  />
+            android:textSize="30sp" />
 
     </LinearLayout>
 
